@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: min-content;
+}
+.navbar{
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5rem;
+    z-index: 3;
+}
+.nav-items{
+    display: flex;
+    gap: 40px;
+    margin-right: 5rem;
+}
+.logo{
+    margin-left: 5rem;
+    font-size: 13px;
+    font-weight: 150;
+    letter-spacing: -1px;
+}
+.logo:hover{
+    color: rgb(202, 0, 0);
+    cursor: pointer;
+    transition: 0.6s;
+}
+.nav-item{
+    font-weight: 100;
+    font-size: 16px;
+}
+.nav-item:hover{
+    color: rgb(202, 0, 0);
+    cursor: pointer;
+    transition: 0.6s;
+}
+.home{
+    color: rgb(202, 0, 0);
+    font-weight: bold;
+}
+.page-img{
+    height: 56rem;
+    width: 100%;
+    position: relative;
+    z-index: -3;
+    top: -19rem;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+.img-txt{
+    position: absolute;
+    top: 11%;
+    height: 37rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+.img-txt h1{
+    margin: 1rem;
+    font-size: 50px;
+    font-weight: lighter;
+
+}
+.img-txt h4{
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.content{
+    position:relative;
+    top: -100px;
+    width: 95%;
+    margin-left: 1rem;
+}
+.content-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content h2{
+    color: rgb(24, 24, 24);
+    font-size: 150%;
+}
+.content h5{
+    color: rgb(83, 83, 83);
+    letter-spacing: 1.3px;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: lighter;
+}
